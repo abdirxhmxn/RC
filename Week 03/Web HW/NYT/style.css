@@ -1,0 +1,586 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Newsreader', 'Times New Roman', Times, serif;
+    margin: 0% 1%;
+}
+
+header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+header section {
+    width: 100%;
+    height: 10%;
+    font-size: 2rem;
+
+}
+
+.s1 nav {
+    height: 40px;
+    margin: 0%;
+    display: flex;
+
+
+}
+
+.s1 nav ul {
+    list-style: none;
+    width: 50%;
+    display: flex;
+    margin: 0%;
+    height: 100%;
+    justify-content: flex-start;
+    gap: 1em;
+    padding-top: .5%;
+}
+
+.s1 nav ul+ul {
+    justify-content: flex-end;
+    padding: 0%;
+    padding-right: 5%;
+
+}
+
+.s1 button {
+    height: 2.5em;
+    padding-top: 0%;
+    background-color: rgb(0, 153, 255);
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+
+}
+
+strong {
+    color: red;
+}
+
+.s1 nav+ul {
+    border-top: 1px solid gray;
+    padding-top: .5%;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+.s2 h1 {
+    font-family: 'UnifrakturCook', 'Times New Roman', Times, serif;
+    font-size: 8rem;
+    margin: 0%;
+}
+
+.s2 ul {
+    border-bottom: 1px solid;
+    list-style: none;
+    display: flex;
+    margin: 0%;
+    height: 100%;
+    justify-content: center;
+    gap: 1em;
+    padding: 1%;
+}
+
+.s3 nav ul {
+    border-top: 2px solid;
+    border-bottom: 1px solid;
+    list-style: none;
+    display: flex;
+    margin: 0%;
+    height: 100%;
+    justify-content: center;
+    gap: 1em;
+    padding: 1%;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    height: 850px;
+    margin-top: 1%;
+}
+
+img {
+    width: 100%;
+}
+
+.one,
+.two,
+.three {
+    height: 850px;
+}
+
+.one {
+
+    padding-right: 1%;
+    width: 20%;
+
+}
+
+.two {
+    width: 50%;
+    margin: 0%;
+}
+
+.three {
+    width: 45%;
+    padding-left: 20px;
+    margin-left: 10px;
+    border-left: 1px solid gray;
+}
+
+.one h3 {
+    font-size: 1.9rem;
+    border-bottom: 2px solid gray;
+    width: 80%;
+    text-align: center;
+    margin-right:20%;
+}
+
+.one h1 {
+    font-size: 4rem;
+    width: 100%;
+}
+
+.one h4 {
+    color: gray;
+    font-size: 1.5rem;
+}
+
+.one ul {
+    padding-left: 10%;
+    font-size: 2em;
+}
+
+.one li {
+    margin-bottom: 5%;
+}
+
+.one span {
+    font-size: 1.2rem;
+}
+
+.one h2 {
+    font-size: 3rem;
+}
+
+.one p {
+    font-size: 2rem;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.two img {
+    width: 100%;
+}
+
+.two span {
+    align-self: flex-end;
+    margin-top: 0%;
+    color: gray;
+    font-size: 1.4rem;
+}
+
+.two h3 {
+    font-size: 2.7rem;
+    margin: 0%;
+    margin-top: 1%;
+}
+
+.Last {
+    font-size: 1.7rem;
+}
+
+.two ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    font-size: 1.3rem;
+    padding-bottom: 1em;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.two ul li {
+    padding-right: 1em;
+    font-weight: bold;
+}
+
+.fpoint {
+    list-style: circle;
+}
+
+
+.two h5 {
+    font-size: 2em;
+    margin-bottom: 0%;
+    margin: 0%;
+    margin-top: 1%;
+}
+
+.two h6 {
+    margin: 0%;
+    font-size: 1em;
+    width: 100%;
+    height: 1.2em;
+
+    float: left;
+}
+
+.two p {
+    width: 100%;
+    font-size: 1.7rem;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 0%;
+
+}
+
+.mini {
+    width: 100%;
+    margin-top: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    margin-top: 0%;
+}
+.mini img{
+    height: 100%;
+}
+
+.mini1 {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 1%;
+}
+
+.mini1 img {
+    width: 23%;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+.bImage {
+    width: 20%;
+}
+
+.mini+span {
+    align-self: flex-start;
+    color: blue;
+    margin-left: 2%;
+}
+
+.three img {
+    width: 10%;
+}
+
+.three h4 {
+    text-align: center;
+    margin: 0%;
+    font-size: 1.3rem;
+    padding: 2%;
+    height: 5%;
+}
+
+.first {
+    width: 100%;
+    height: 50%;
+    margin-top: 0%;
+    display: flex;
+}
+
+.top-left,
+.top-right {
+    width: 50%;
+    height: 100%;
+
+}
+.first section+section{
+    padding-left: 15px;
+    padding-left: 15px;
+    border: none;
+}
+.third {
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-left,
+.top-right {
+    width: 50%;
+    height: 100%;
+}
+
+.bottom-one,
+.bottom-two,
+.bottom-three {
+    width: 100%;
+    height: 33.3%;
+}
+
+.B1-left,
+.B1-right {
+    width: 50%;
+    height: 100%;
+    padding-left: 5px;
+    
+}
+
+
+
+.top-left ul {
+    width: 100%;
+    height: 60%;
+    margin: 0%;
+}
+
+.top-left li {
+    list-style: none;
+}
+
+.top-left ul+ul {
+    height: 40%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0% 10%;
+    margin-top: 20px;
+}
+
+.top-left ul {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    margin: 0%;
+    margin-top: 1%;
+    padding-left: 0%;
+}
+
+.top-left h6 {
+    color: gray;
+    height: 1em;
+    margin: 2%;
+    margin-top: 2%;
+}
+
+.top-left h5 {
+    font-size: 1.7rem;
+    height: 1em;
+    margin: 2%;
+}
+
+.top-left ul li:nth-of-type(1) p {
+    width: 60%;
+}
+
+.top-left ul li:nth-of-type(1) img {
+    width: 30%;
+    padding: 2%;
+}
+
+.top-left ul li:nth-of-type(1) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 4em;
+    margin-bottom: 0%;
+}
+
+.top-left {
+    margin: 0%;
+    border-right: 1px solid gray;
+    padding-right: 15px;
+}
+
+.top-left ul+ul li {
+    padding-top: 2%;
+    padding-right: 2%;
+    margin: 2%;
+    list-style: disc;
+}
+
+.B1-left h6 {
+    font-size: 1rem;
+}
+.B1-left{
+    border-right: 1px solid gray;
+}
+.B1-left p {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.B1-right h6 {
+    font-size: 1rem;
+}
+
+.B1-right p {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.B1-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.B1-right img {
+    width: 30%;
+    padding: 5%;
+}
+.bottom-two{
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+}
+.bottom-two,
+.bottom-three {
+    font-size: 1.7rem;
+    display: flex;
+    flex: 1em;
+    gap: 1em;
+}
+
+.bottom-two span,
+.bottom-three span {
+    width: 10%;
+}
+
+.bottom-two p,
+.bottom-three p {
+    width: 60%;
+}
+
+.bottom-two img,
+.bottom-three img {
+    width: 30%;
+}
+.bottom-one {
+    display: flex;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin-bottom: 15px;
+}
+@media (max-width: 1450px){
+    html{
+        font-size: 55%;
+        height: 800px;
+    }
+    .mini1 img{
+        height:  60%;
+    }
+    .two h5{
+        margin-top: 5%;
+    }
+    .mini+span{
+        margin-bottom: 5%;
+    }
+    .two ul{
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 5%;
+        margin-left: 3%;
+    }
+    .top-left ul{
+        margin-top: 5%;
+    }
+    .top-left ul li {
+        margin-bottom: 5%;
+    }
+    .top-left ul li:nth-of-type(1){
+        margin-bottom: 15px
+    }
+    .bottom-one{
+        height: 90px;
+    }
+    .bottom-two,.bottom-three{
+        height: 100px;
+    }
+}
+@media (max-width: 1300px){
+    html{
+        font-size: 48%;
+    }
+    .mini1 img{
+        height:  50%;
+        width: auto;
+    }
+    .two h5{
+        margin-top: 1%;
+    }
+    .mini+span{
+        margin-bottom: 3%;
+    }
+    .two ul{
+        display: flex;
+        padding-top: 3%;
+        margin-left: 3%;
+    }
+    .top-left ul{
+        margin-top: 5%;
+    }
+    .top-left ul li {
+        margin-bottom: 5%;
+    }
+    .top-left ul li:nth-of-type(1){
+        margin-bottom: 15px
+    }
+    .bottom-one{
+        height: 90px;
+    }
+    .bottom-two,.bottom-three{
+        height: 100px;
+    }
+    .third{
+        height: 45%;
+    }
+    .top, .one, .two, .three{
+        height: 745px;
+    }
+    .one p, .one ul{
+        font-size: 1.6rem;
+    }
+    .bottom-two img, .bottom-three img{
+        height: 70%;
+        width: auto;
+    }
+}
+@media (max-width: 1220px){
+    html{
+        font-size: 47%;
+    }
+        .two h5{
+        margin-top: 2.5%;
+    }
+    .top-left ul li{
+        font-size: 80%;
+    }
+    .top-left+.top-left ul{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    .top-left+.top-left{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    
+}

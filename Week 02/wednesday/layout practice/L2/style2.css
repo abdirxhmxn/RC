@@ -1,0 +1,28 @@
+
+*{
+    box-sizing: border-box;
+
+}
+header,footer{
+    border:1px solid black;
+    height: 100px;
+    clear: both;
+}
+.midget{
+    width: 35%;
+    clear: both;
+}
+section{
+    border: 1px solid black;
+    height: 300px;
+    width: 65%;
+    float: left;
+}
+.first{
+    border: 1px solid black;
+    height: 150px;
+    width: 100%;
+    clear: both;
+}
+
+

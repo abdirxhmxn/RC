@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+main{
+    border:1px solid;
+    width: 70%;
+    height: 100%;
+}
+main section img{
+    width: 100%;
+}
+aside{
+    border:1px solid;
+    width: 30%;
+    height: 100%;
+}
+footer{
+    border:1px solid;
+    width: 100%;
+}

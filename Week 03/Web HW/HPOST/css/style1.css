@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+.first {
+    height: 300px;
+}
+
+.first div {
+    width: 25%;
+    height: 100%;
+    padding-left: 30px;
+    float: left;
+}
+
+.first div img {
+    border-top: 4px solid rgb(67,122,55);
+    padding-top: 10px;
+    width: 380px;
+    justify-content: center;
+}
+
+.first div h4 {
+    font-size: 20px;
+    margin-top: 0%;
+    width: 400px;
+}
+
+.second {
+    height: 300px;
+    margin-top: 2%;
+}
+
+.second div {
+    
+    width: 25%;
+    height: 100%;
+    padding-left: 30px;
+    float: left;
+}
+
+.second div img {
+    border-top: 4px solid rgb(67,122,55);
+    padding-top: 10px;
+    width: 380px;
+    justify-content: center;
+}
+
+.second div h4 {
+    font-size: 20px;
+    margin-top: 0%;
+    width: 400px;
+}
+
+footer {
+    height: 200px;
+    clear: both;
+}
+
+footer {
+    color: azure;
+    text-align: center;
+    background-color: black;
+    padding-top: 3%;
+}
+
+footer p a{
+    text-decoration: none;
+    color: azure;
+}
+@media (max-width:1485px){
+    .first div h4, .second div h4{
+        font-size: 18px;
+        width: 100%;
+    }
+    .first div img, .second div img{
+        width: 100%;
+    }
+}
+@media (max-width:1150px){
+    .first div h4, .second div h4{
+        font-size: 15px;
+    }
+    footer{
+        font-size: 12px;
+    }
+}
+@media (max-width:890px){
+    .first div h4, .second div h4{
+        font-size: 13px;
+    }
+}

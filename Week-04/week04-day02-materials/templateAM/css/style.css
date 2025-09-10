@@ -1,0 +1,48 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: blanchedalmond;
+}
+h1{
+  font-size: 50px;
+}
+form{
+  height: 200px;
+  width: 600px;
+  text-align: center;
+  font-size: 33px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+}
+form input, select{
+  border-radius: 5px;
+  width: 45%;
+}
+button{
+  height: 50px;
+  width: 100px;
+  font-size: 25px;
+}
+h2{
+  font-size: 40px;
+  color: plum;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

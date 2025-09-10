@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    font-family: 'Source Sans 3', Arial, Helvetica, sans-serif;
+}
+
+header {
+    border: 1px solid black;
+    height: 100px;
+    color: white;
+    background-color: black;
+    clear: both;
+}
+
+header nav {
+    width: 55%;
+    height: 100%;
+    float: left;
+}
+
+header div form {
+    height: 99px;
+    width: 20%;
+    float: right;
+    padding: 40px;
+}
+
+.third form input {
+    width: 100%;
+    height: 500px;
+    float: left;
+
+}
+
+li {
+    list-style-type: none;
+    font-size: 25px;
+    margin: 15px;
+    color: white;
+    float: left;
+}
+
+main>h1 {
+    border: 1px solid white;
+    padding-left: 10px;
+    width: 50%;
+    float: left;
+}
+
+h1+h1 {
+    text-align: right;
+    color: darkgray;
+    font-weight: 300;
+}
+
+.Ohio {
+    border: 5px solid white;
+    width: 50%;
+    height: 515px;
+    float: left;
+}
+
+.Ohio img {
+    width: 100%;
+    height: auto;
+}
+
+.high5 {
+    border: 5px solid white;
+    width: 25%;
+    height: 250px;
+    float: left;
+
+}
+
+.high5 img {
+    width: 100%;
+    height: auto;
+}
+
+.lockdown {
+    border: 5px solid white;
+    width: 25%;
+    height: 250px;
+    float: left;
+}
+
+.lockdown img {
+    width: 100%;
+    height: auto;
+}
+
+.pest {
+    border: 5px solid white;
+    width: 25%;
+    height: 250px;
+    float: left;
+}
+
+.pest img {
+    width: 100%;
+    height: 235px;
+}
+
+.winnie {
+    border: 5px solid white;
+    width: 25%;
+    height: 250px;
+    float: left;
+}
+
+.winnie img {
+    width: 100%;
+    height: 235px;
+}
+
+.down {
+    border: 2px solid white;
+    clear: both;
+}
+
+section>h3 {
+    border: 1px solid white;
+    clear: both;
+}
+
+.bottom {
+    border: 1px solid white;
+    width: 33.3%;
+    height: 450px;
+    float: left;
+}
+
+.down section img {
+    width: auto;
+    height: 320px;
+}
+
+.bottom1 {
+    border: 1px solid white;
+    width: 33.3%;
+    height: 450px;
+    float: left;
+}
+
+.bottom2 {
+    border: 1px solid white;
+    width: 33.3%;
+    height: 450px;
+    float: left;
+}
+
+.down span {
+    color: darkgray;
+    border-left: 2px solid red;
+    padding-left: 10px;
+}
+
+.down h3 {
+    font-size: 30px;
+    border-left: 3px solid red;
+    padding-left: 10px;
+    height: 1px;
+    width: 100px;
+    padding-bottom: 40px;
+    margin-top: 0%;
+}
+
+.down h4 {
+    font-size: 26px;
+    font-weight: 500;
+    margin: 0% 3%;
+}
+
+.first {
+    width: 10%;
+    height: 100%;
+    background-color: black;
+    float: left;
+}
+
+.first h1 {
+    font-size: 40px;
+    border: 1px solid;
+    padding: 1%;
+    padding-top: 0%;
+    height: 50px;
+    width: 24%;
+    text-align: center;
+    float: left;
+    margin: 17% 3%;
+    color: black;
+    background-color: white;
+    font-weight: 700;
+
+}
+
+.second {
+    border: 1px solid black;
+    height: 100%;
+    width: 15%;
+    padding: 26px 0;
+    float: left;
+}
+
+.second img {
+    width: 30%;
+    height: auto;
+    float: left;
+}
+
+.second span {
+    margin-top: 80px;
+    margin-left:  15px;;
+    height: 100px;
+    font-size: 25px;
+    font-weight: 800;
+}

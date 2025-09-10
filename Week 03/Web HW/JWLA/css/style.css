@@ -1,0 +1,451 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid;
+    display: flex;
+}
+
+header ul {
+    width: 100%;
+    height: 50px;
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    gap: 5em;
+
+}
+
+header ul li {
+    list-style: none;
+    color: #23395d;
+    padding-top: .3%;
+}
+
+header li button {
+    width: 8em;
+    height: 40px;
+    padding-top: 1%;
+    background-color: #23395d;
+    color: white;
+    font-size: 2rem;
+    margin: 0%;
+}
+
+.top1,
+.top2,
+.top3 {
+    border: 1px solid;
+    width: 100%;
+    height: 750px;
+}
+
+.top section {
+    height: 400px;
+    margin-top: 0%;
+}
+
+footer {
+    border: 1px solid;
+    width: 100%;
+    height: 300px;
+    background-color: gray;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-sec {
+    display: flex;
+}
+
+.top-sec section {
+    width: 60%;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 5%;
+    background-color: whitesmoke;
+}
+
+.top-sec section+section {
+    width: 40%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    background-color: whitesmoke;
+    padding: 0%;
+}
+
+.top-sec section+section img {
+    height: 80%;
+}
+
+.top-sec section h1 {
+    font-size: 5rem;
+    margin-bottom: 0%;
+    padding-left: 15%;
+}
+
+.top-sec section span {
+    padding-left: 16%;
+}
+
+.top-sec section h2 {
+    font-size: 3rem;
+    margin-bottom: 0%;
+}
+
+.top-sec section h4 {
+    font-size: 2rem;
+    margin-top: 1%;
+    width: 50%;
+    text-align: left;
+    font-weight: 400;
+}
+
+.top-sec section p {
+    font-size: 2rem;
+}
+
+.top-sec section form {
+    width: 70%;
+    height: 50px;
+    display: flex;
+    gap: 1em;
+}
+
+.top-sec section form input {
+    width: 30em;
+    font-size: 2rem;
+    border-radius: 5px;
+    border: .5px solid;
+}
+
+.top-sec section form button {
+    width: 10em;
+    font-size: 2rem;
+    color: white;
+    background-color: rgb(157, 156, 156);
+    border: none;
+    border-radius: 5px;
+}
+
+.bottom-sec div {
+    width: 100%;
+    height: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-sec h2 {
+    font-size: 3.3rem;
+    text-align: center;
+    width: 60%;
+    margin-top: 3%;
+}
+
+.bottom-sec div+div {
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+}
+
+.bottom-sec div+div p {
+    border-top: 2px solid pink;
+    width: 30%;
+    font-size: 2.4rem;
+    height: 90px;
+    padding-top: 1%;
+    margin-top: 1%;
+    margin-bottom: 0%;
+
+
+}
+
+.bottom-sec div+div+div p {
+    color: gray;
+    font-style: italic;
+    font-size: 2rem;
+    width: 60%;
+    text-align: center;
+    border: none;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+.top2 {
+    display: flex;
+    background-color: whitesmoke;
+}
+
+.top2 h1 {
+    font-size: 3.3rem;
+    padding: 0% 5%;
+}
+
+.top2 p {
+    font-size: 2.6rem;
+    padding: 0% 5%;
+}
+
+.left-sec {
+    width: 60%;
+    height: 100%;
+}
+
+.right-sec {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.right-sec img {
+    height: auto;
+    width: 60%;
+}
+
+.right-sec span {
+    color: gray;
+    font-size: 2rem;
+}
+
+.top3 h2 {
+    font-size: 3.3rem;
+    padding: .5% 5%;
+    border: 1px solid;
+    margin-top: 0%;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+}
+
+.top3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top3 section {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    margin-bottom: 2%;
+    padding: 2%;
+    box-shadow: 3px 3px 3px 3px rgb(157, 156, 156);
+}
+
+.top3 section+section {
+    box-shadow: none;
+    padding: 0%;
+}
+
+.top3 section img {
+    width: 20%;
+}
+
+.first {
+    margin-left: 3%;
+}
+
+.top3 section span {
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+
+.top3 section p {
+    font-size: 2.1rem;
+    margin-top: 0%;
+}
+
+.top3 section h4 {
+    font-size: 2.3rem;
+    margin-bottom: 5%;
+    margin-top: 0%;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.div2 h3 {
+    border-bottom: 1px solid;
+    width: 18%;
+    font-size: 2.3rem;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 1%;
+}
+
+.div2 div {
+    width: 100%;
+    display: flex;
+    gap: 1em;
+}
+
+.div2 div h6 {
+    margin-top: 0%;
+    padding-left: 0%;
+    font-weight: 300;
+    margin-left: 1.3%;
+    font-size: 1rem;
+}
+
+.sign {
+    border: 1px solid;
+    width: 100%;
+    padding-left: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: whitemo;
+    background-color: whitesmoke;
+    gap: 2em;
+}
+
+.sign form {
+    width: 70%;
+    height: 50px;
+    display: flex;
+    gap: 2em;
+}
+
+.sign form input {
+    width: 30em;
+    font-size: 2rem;
+    border-radius: 5px;
+    border: .5px solid;
+}
+
+.sign form button {
+    width: 10em;
+    font-size: 2rem;
+    color: white;
+    background-color: rgb(157, 156, 156);
+    border: none;
+    border-radius: 5px;
+}
+
+.open {
+    border-bottom: 1px solid white;
+    width: 65%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: white;
+    font-size: 1.2rem;
+    background-color: gray;
+    padding-top: 3%;
+}
+
+footer div+div {
+    height: 200px;
+    width: 100%;
+}
+
+.open p {
+    width: 30%;
+}
+
+.open div {
+    width: 30%;
+    display: flex;
+    gap: 3em;
+}
+
+.close {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.close div {
+    width: 30%;
+    display: flex;
+    font-size: 1.4rem;
+    gap: 1em;
+}
+
+.close div+div {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5%;
+    width: 40%;
+}
+
+.close ul {
+    list-style: none;
+}
+
+.last {
+    display: flex;
+    gap: 3em;
+}
+
+@media (max-width:1420px) {
+    html {
+        font-size: 55%;
+    }
+
+    nav {
+        width: 100%;
+        display: flex;
+    }
+
+    header ul {
+        gap: 3em;
+    }
+
+    nav ul li {
+        display: flex;
+    }
+
+    nav ul li button {
+        width: 100px;
+    }
+
+    .bottom-sec div+div+div p {
+        margin-top: 2%
+    }
+}
+
+@media (max-width:1309px) {
+    html {
+        font-size: 53%;
+    }
+}
+
+@media (max-width:1144px) {
+    html {
+        font-size: 51%;
+    }
+
+    footer {
+        font-size: 1rem;
+
+    }
+}

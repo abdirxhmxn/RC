@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+header,footer{
+    border: 1px solid black;
+    height: 100px;
+}
+section{
+    width: 33.3%;
+    height: 20rem;
+    border: 1px solid;
+    margin-bottom: 0%;
+}
+body div{
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (max-width:800px) {
+    header{
+        background-color: blue;
+    }
+     body div{
+        display: flex;
+        flex-direction: column;
+    }
+    div section{
+        width: 100%;
+    }
+}

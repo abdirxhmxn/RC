@@ -1,0 +1,29 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  height: 400px;
+  background-color: blanchedalmond;
+  margin: 4%;
+}
+
+p{
+  color: blueviolet;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
