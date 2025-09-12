@@ -1,28 +1,196 @@
-*{
+* {
     box-sizing: border-box;
 }
-html{
+
+html {
     font-size: 62.5%;
 }
-body{
+
+body {
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    background-color: #ccc;
 }
-div{
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    margin-bottom: 0%;
+    font-size: 4rem;
+    margin-top: 0%;
+    height: 30px;
+}
+
+div {
     display: flex;
+    gap: 1em;
 }
-.task{
-    border: 1px solid;
-    width: 70%;
-    height: 500px;
+
+.task {
+    border-radius: 5px;
+    width: 50em;
+    height: 613px;
     padding: 2%;
     font-size: 2rem;
     display: flex;
     flex-flow: column;
+    gap: 1em;
+    background-image: url('../images/notes.png');
+    background-size: cover;
 }
-li{
-    font-size: 3rem;
-    list-style:none;
+
+li {
+    font-size: 4rem;
+    list-style: none;
+    width: 30%;
+
+}
+
+input[type="checkbox" i] {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+ol {
+    margin-top: 2.3%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    gap: .9em;
+    height: 513px;
+    padding-left: 0%;
+    margin-bottom: 0%;
+}
+
+.first {
+    display: none;
+}
+
+h4 {
+    font-size: 2rem;
+    margin-top: 0%;
+    padding-top: 1%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+form input {
+    width: 10em;
+    height: 40px;
+    margin-bottom: 5%;
+    font-size: 2rem;
+}
+
+form+button {
+    margin-top: 0%;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    font-size: 1.5rem;
+    border-radius: 6px;
+}
+
+/* Styles for screens 1023px wide and smaller (tablets and mobiles) */
+@media (max-width: 1023px) {
+    html {
+        font-size: 58%;
+    }
+
+    .task {
+        width: 30em;
+        height: 413px;
+    }
+
+    p {
+        font-size: 3rem;
+    }
+
+    form input {
+        font-size: 1.5rem;
+        width: 10em;
+        height: 40px;
+    }
+
+    input[type="checkbox" i] {
+        width: 20px;
+        height: 20px;
+        margin-top: 1%;
+    }
+
+    span {
+        font-size: 3rem;
+    }
+
+    ol {
+        height: 350px;
+        padding-top: 0%;
+        margin-top: 1%;
+        gap: .5em;
+    }
+
+    li {
+        display: flex;
+        justify-content: center;
+        width: 200px;
+        margin-top: 2%;
+    }
+}
+
+/* Styles for screens 767px wide and smaller (mobiles) */
+@media (max-width: 767px) {
+    html {
+        font-size: 50%;
+    }
+
+    .task {
+        width: 30em;
+        height: 413px;
+    }
+
+    p {
+        font-size: 3rem;
+    }
+
+    form input {
+        font-size: 1.5rem;
+        width: 10em;
+        height: 40px;
+    }
+
+    input[type="checkbox" i] {
+        width: 20px;
+        height: 20px;
+        margin-top: 1%;
+    }
+
+    span {
+        font-size: 2.5rem;
+    }
+    ol {
+        height: 350px;
+        padding-top: 0%;
+        margin-top: 1%;
+        gap: .5em;
+    }
+
+    li {
+        display: flex;
+        justify-content: center;
+        width: 200px;
+        margin-top: 2%;
+    }
 }
