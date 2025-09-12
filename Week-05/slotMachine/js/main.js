@@ -26,10 +26,10 @@ function minBet() {
         wallet += 250
         document.querySelector('span').innerText = `Wallet: ${wallet}`
         document.querySelector('h2').innerText = "Congratulations you have won $250!"
-    } else if (!wallet <= 0 && (reels[0].innerText === reels[1].innerText && reels[1].innerText === reels[2].innerText) && reels[0] === 3) {
+    } else if (!wallet <= 0 && (reels[0].innerText === reels[1].innerText && reels[1].innerText === reels[2].innerText) && reels[0] === symbols[0]) {
         wallet += 25000
         document.querySelector('span').innerText = `Wallet: ${wallet}`
-        document.querySelector('h2').innerText = "You a sucka!"
+        document.querySelector('h2').innerText = "You won the Jackpot!!!!"
     } else if (wallet < 1) {
         document.querySelector('h2').innerText = "Game Over! You Broke!"
 
@@ -53,7 +53,7 @@ function maxBet() {
         wallet += 10000
         document.querySelector('span').innerText = `Wallet: ${wallet}`
         document.querySelector('h2').innerText = "Congratulations you have won $10000!"
-    } else if (!wallet <= 0 && (reels[0].innerText === reels[1].innerText && reels[1].innerText === reels[2].innerText) && reels[0] === 3) {
+    } else if (!wallet <= 0 && (reels[0].innerText === reels[1].innerText && reels[1].innerText === reels[2].innerText) && reels[0] === symbols[0]) {
         wallet += 100000
         document.querySelector('span').innerText = `Wallet: ${wallet}`
         document.querySelector('h2').innerText = "You won the Jackpot!!!!"

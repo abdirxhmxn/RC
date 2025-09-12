@@ -55,8 +55,8 @@ h4 {
     display: flex;
     justify-content: center;
     margin-top: 5%;
-    gap: 1em;
-
+    gap: 1em;   
+    font-size: 3rem;
 }
 
 h2 {
@@ -77,4 +77,12 @@ span {
     display: flex;
     font-size: 5rem;
     justify-content: flex-start;
+}
+button{
+    width: 150px;
+    height: 50px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
 }
