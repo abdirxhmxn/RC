@@ -13,10 +13,16 @@ body{
 div{
     display: flex;
 }
-p{
+.task{
     border: 1px solid;
     width: 70%;
     height: 500px;
     padding: 2%;
     font-size: 2rem;
+    display: flex;
+    flex-flow: column;
+}
+li{
+    font-size: 3rem;
+    list-style:none;
 }

@@ -7,25 +7,48 @@ document.querySelector('#clearAll').addEventListener('click', clearAll)
 //listen for the clear last button --> clearLast()
 document.querySelector('#clearLast').addEventListener('click', clearLast)
 
-
+let taskList = []
 
 function addTask() {
+    document.querySelector('h4').innerText = ''
     //take in the input as a variable
+    let inputTask = document.querySelector('#item').value
     //initalize an array object
-    let taskList = []
-    // initialize an element
-    let newElementList = document.createElement('li')
-    const parent = document.querySelector('ol')
-    newElementList.textContent = 'Testing'
 
-    document.querySelector('ol').appendChild(newElementList)
-    // add it the empty array as an li
-    console.log(taskList.push(newElementList))
+    // initialize an element
+    const li = document.createElement('li')
+    const input = document.createElement('input')
+    input.type = 'checkbox'
+
+    const label = document.createElement('span')
+    li.appendChild(input)
+    li.appendChild(label)
+    const parent = document.querySelector('#taskList')
+
+    label.textContent = inputTask
+
+    parent.appendChild(li)
 }
 
 function clearAll() {
-    console.log("Clear All")
+    const parent = document.querySelector('#taskList')
+    if (parent.firstChild == null) {
+        document.querySelector('h4').innerText = 'Todo List is empty. Add tasks before trying to remove.'
+    } else {
+
+        //set the ol tag to be empty
+        parent.innerHTML = ""
+    }
 }
 function clearLast() {
-    console.log("Clear Last")
+    const parent = document.querySelector('#taskList')
+
+    //conditional logic for empty list
+    if (parent.firstChild == null) {
+        document.querySelector('h4').innerText = 'Todo List is empty. Add tasks before trying to remove.'
+    } else {
+        const li = document.querySelector('li')
+        //remove the last li
+        parent.removeChild(parent.lastChild)
+    }
 }
